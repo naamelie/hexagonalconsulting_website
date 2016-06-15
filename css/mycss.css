@@ -1,0 +1,94 @@
+
+.navbar-default{
+  background-color: black;
+  padding: 25px 0;
+  -webkit-transition: padding .3s;
+  -moz-transition: padding .3s;
+  transition: padding .3s;
+  border: 0;
+}
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus{
+  color: #00B8D0;
+}
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+  color: #fff;
+  background-color:#00B8D0;
+}
+.navbar-default .navbar-nav>.active>a{
+  color: #fff;
+  background-color:#00B8D0;
+}
+
+
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl{
+  color: #fff;
+  background-color: #999999;
+  border-color: #999999;
+}
+.btn-xl{
+  color: #fff;
+  background-color: #00B8D0;
+  border-color: #00B8D0;
+}
+.text-primary{
+  color: black;
+}
+.logo {
+  height: 50px
+}
+.navbar-brand{
+  padding: 5px 5px;
+}
+header{
+  background: white;
+}
+header .intro-text{
+  padding-top: 100px;
+}
+header .intro-text .intro-lead-in{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 50px;
+}
+#calltoa{
+  background-image: url(../bandeau_bleu.png);
+  background-repeat: no-repeat;
+  background-position:right;
+}
+.intro-lead-in{
+  color: black;
+}
+.intro-heading{
+  color: black;
+}
+section#contact{
+  background-color: white;
+  background-image: url(../bandeau_bleu.png);
+  background-position:right;
+  background-repeat: no-repeat;
+}
+section#contact .section-heading{
+  color: black;
+}
+section h3.section-subheading{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+::selection{
+  background: #00B8D0;
+}
+.navbar-default .navbar-toggle{
+  background-color: #00B8D0;
+  border-color: #00B8D0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: #00B8D0;
+  border-color: #00B8D0;
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active{
+  background-color: #00B8D0;
+}
+a{
+  color: #00B8D0;
+}
+a:hover, a:focus, a:active, a.active{
+  color: #00B8D0;
+}
