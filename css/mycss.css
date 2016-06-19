@@ -1,4 +1,16 @@
+/* HEADER */
+header{
+  background: white;
+}
+header .intro-text{
+  padding-top: 100px;
+}
+header .intro-text .intro-lead-in{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 50px;
+}
 
+/* NAV BAR */
 .navbar-default{
   background-color: black;
   padding: 25px 0;
@@ -18,8 +30,19 @@
   color: #fff;
   background-color:#00B8D0;
 }
+.navbar-brand{
+  padding: 5px 5px;
+}
+.navbar-default .navbar-toggle{
+  background-color: #00B8D0;
+  border-color: #00B8D0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: #00B8D0;
+  border-color: #00B8D0;
+}
 
-
+/* BUTTON */
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl{
   color: #fff;
   background-color: #999999;
@@ -36,19 +59,8 @@
 .logo {
   height: 50px
 }
-.navbar-brand{
-  padding: 5px 5px;
-}
-header{
-  background: white;
-}
-header .intro-text{
-  padding-top: 100px;
-}
-header .intro-text .intro-lead-in{
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin-bottom: 50px;
-}
+
+/* HOME */
 #calltoa{
   background-image: url(../bandeau_bleu.png);
   background-repeat: no-repeat;
@@ -60,6 +72,11 @@ header .intro-text .intro-lead-in{
 .intro-heading{
   color: black;
 }
+section h3.section-subheading{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* CONTACT */
 section#contact{
   background-color: white;
   background-image: url(../bandeau_bleu.png);
@@ -69,19 +86,10 @@ section#contact{
 section#contact .section-heading{
   color: black;
 }
-section h3.section-subheading{
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+
+/* CUSTOM COLOR */
 ::selection{
   background: #00B8D0;
-}
-.navbar-default .navbar-toggle{
-  background-color: #00B8D0;
-  border-color: #00B8D0;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-  background-color: #00B8D0;
-  border-color: #00B8D0;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active{
   background-color: #00B8D0;
@@ -91,4 +99,9 @@ a{
 }
 a:hover, a:focus, a:active, a.active{
   color: #00B8D0;
+}
+
+/* TITLE H2 */
+section h2.section-heading{
+  margin-bottom: 35px;
 }
